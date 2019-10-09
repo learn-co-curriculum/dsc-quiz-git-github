@@ -20,16 +20,6 @@
 ( ) Work collaboratively  
 ( ) Work separately on code
 
-
-
-?: Which of the following is the correct way to send code to a remote repo for the first time?
-
-( ) `git push`    
-( ) `git send`  
-(X) `git push origin master`
-( ) `git push new`
-
-
 ?: Which command checks the current state of the files in a Git repository? 
 
 ( ) `git check status`
@@ -44,5 +34,17 @@
 ( ) `git commit . <message>`
 (X) `git commit -m <message>` 
 
+
+?: What is the correct order in which you run commands in order to push all changes from a local version of your repository to GitHub? 
+
+1. `git push origin master`
+2. `git add .`
+3. `git commit -am "message"` 
+
+
+( ) 3-2-1   
+( ) 2-1-3  
+(X) 2-3-1
+( ) 1-3-2
 
 ???
