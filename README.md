@@ -27,12 +27,12 @@
 ( ) `git checkout master`
 (X) `git status` 
 
-?: Which command can be used to commit changes to a branch?
+?: Which command can be used to switch to a different branch?
  
-( ) `git commit <message>`  
-( ) `git commit -p <message>`  
-( ) `git commit . <message>`
-(X) `git commit -m <message>` 
+( ) `git switch <new-branch>`   
+( ) `git switch <old-branch> <new-branch>`  
+( ) `git checkout .`   
+(X) `git checkout <new-branch>` 
 
 
 ?: What is the correct order in which you run commands in order to push all changes from a local version of your repository to GitHub? 
